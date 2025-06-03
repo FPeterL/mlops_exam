@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Spam Szűrő – Teszt Felület</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+        textarea {
+            width: 100%;
+            height: 120px;
+            padding: 8px;
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 8px 16px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 12px;
+            border: 1px solid #ccc;
+            background: #f9f9f9;
+        }
+        .spam {
+            color: red;
+            font-weight: bold;
+        }
+        .ham {
+            color: green;
+            font-weight: bold;
+        }
+        .error {
+            color: darkred;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Spam Szűrő – Teszt Felület</h1>
+    <p>Írj be egy üzenetet, majd kattints a <strong>„Predikció”</strong> gombra, hogy lásd, spam-e vagy sem:</p>
+
+    <form method="post" action="/">
+        <textarea name="message" placeholder="Ide írd be az SMS / üzenet szövegét..."></textarea><br>
+        <button type="submit">Predikció</button>
+    </form>
+
+    {% if result %}
+        <div class="result">
+            {% if result.error %}
+                <p class="error">{{ result.error }}</p>
+            {% else %}
+                <p><strong>Beírt üzenet:</strong></p>
+                <blockquote>{{ result.message }}</blockquote>
+                <p>Eredmény:
+                    {% if result.label == 'spam' %}
+                        <span class="spam">SPAM</span>
+                    {% else %}
+                        <span class="ham">HAM</span>
+                    {% endif %}
+                    <br>
+                    Valószínűség: <strong>{{ result.probability }}</strong>
+                </p>
+            {% endif %}
+        </div>
+    {% endif %}
+
+</body>
+</html>

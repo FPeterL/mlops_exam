@@ -1,0 +1,90 @@
+2025-06-02 15:05:02,038 - INFO - Training script indítása
+2025-06-02 15:05:02,038 - INFO - Adat betöltése: data\spam.csv
+2025-06-02 15:05:02,049 - INFO - Adat betöltve: 5572 sor
+2025-06-02 15:05:02,049 - INFO - Adat validáció indítása...
+2025-06-02 15:05:02,051 - INFO - Validáció sikeres. Adatméret: 5572, Spam arány: 0.134
+2025-06-02 15:05:02,056 - INFO - Train méret: 4457, Test méret: 1115
+2025-06-02 15:05:02,056 - INFO - Label eloszlás:
+label
+ham     4825
+spam     747
+2025-06-02 15:05:02,058 - INFO - Vektorizálás...
+2025-06-02 15:05:02,161 - INFO - Vocabulary méret: 7440
+2025-06-02 15:05:02,161 - INFO - Feature matrix alakja: (4457, 7440)
+2025-06-02 15:05:02,161 - INFO - Model tanítása...
+2025-06-02 15:05:02,164 - INFO - Model kiértékelése...
+2025-06-02 15:05:02,182 - INFO - Metrikák mentve: artifacts/training_metrics.json
+2025-06-02 15:05:02,197 - INFO - Model sikeresen mentve: artifacts\spam_model.pkl
+2025-06-02 15:05:02,197 - INFO - Training befejezve. Összes idõ: 0.16 másodperc
+2025-06-02 16:48:19,703 - INFO - Training script indítása
+2025-06-02 16:48:19,704 - INFO - Adat betöltése: data\spam.csv
+2025-06-02 16:48:19,738 - INFO - Adat betöltve: 5572 sor
+2025-06-02 16:48:19,738 - INFO - Adat validáció indítása...
+2025-06-02 16:48:19,741 - INFO - Validáció sikeres. Adatméret: 5572, Spam arány: 0.134
+2025-06-02 16:48:19,749 - INFO - Train méret: 4457, Test méret: 1115
+2025-06-02 16:48:19,751 - INFO - Label eloszlás:
+label
+ham     4825
+spam     747
+2025-06-02 16:48:19,751 - INFO - Vektorizálás...
+2025-06-02 16:48:19,850 - INFO - Vocabulary méret: 7440
+2025-06-02 16:48:19,850 - INFO - Feature matrix alakja: (4457, 7440)
+2025-06-02 16:48:19,850 - INFO - Model tanítása...
+2025-06-02 16:48:19,853 - INFO - Model kiértékelése...
+2025-06-02 16:48:19,864 - INFO - Metrikák mentve: artifacts/training_metrics.json
+2025-06-02 16:48:19,874 - INFO - Model sikeresen mentve: artifacts\spam_model.pkl
+2025-06-02 16:48:19,874 - INFO - Training befejezve. Összes idõ: 0.17 másodperc
+2025-06-02 16:01:16,564 - INFO - Training script indÃ­tÃ¡sa
+2025-06-02 16:01:16,568 - INFO - Adat betÃ¶ltÃ©se: data/spam.csv
+2025-06-02 16:01:16,611 - INFO - Adat betÃ¶ltve: 5572 sor
+2025-06-02 16:01:16,612 - INFO - Adat validÃ¡ciÃ³ indÃ­tÃ¡sa...
+2025-06-02 16:01:16,621 - INFO - ValidÃ¡ciÃ³ sikeres. AdatmÃ©ret: 5572, Spam arÃ¡ny: 0.134
+2025-06-02 16:01:16,633 - INFO - Train mÃ©ret: 4457, Test mÃ©ret: 1115
+2025-06-02 16:01:16,636 - INFO - Label eloszlÃ¡s:
+label
+ham     4825
+spam     747
+2025-06-02 16:01:16,637 - INFO - VektorizÃ¡lÃ¡s...
+2025-06-02 16:01:16,715 - INFO - Vocabulary mÃ©ret: 7440
+2025-06-02 16:01:16,716 - INFO - Feature matrix alakja: (4457, 7440)
+2025-06-02 16:01:16,717 - INFO - Model tanÃ­tÃ¡sa...
+2025-06-02 16:01:16,720 - INFO - Model kiÃ©rtÃ©kelÃ©se...
+2025-06-02 16:01:16,738 - INFO - MetrikÃ¡k mentve: artifacts/training_metrics.json
+2025-06-02 16:01:16,761 - INFO - Model sikeresen mentve: artifacts/spam_model.pkl
+2025-06-02 16:01:16,762 - INFO - Training befejezve. Ã–sszes idÅ‘: 0.20 mÃ¡sodperc
+2025-06-03 04:54:42,751 - INFO - Training script indítása
+2025-06-03 04:54:42,752 - INFO - Adat betöltése: data\spam.csv
+2025-06-03 04:54:42,760 - INFO - Adat betöltve: 5572 sor
+2025-06-03 04:54:42,761 - INFO - Adat validáció indítása...
+2025-06-03 04:54:42,762 - INFO - Validáció sikeres. Adatméret: 5572, Spam arány: 0.134
+2025-06-03 04:54:42,765 - INFO - Train méret: 4457, Test méret: 1115
+2025-06-03 04:54:42,766 - INFO - Label eloszlás:
+label
+ham     4825
+spam     747
+2025-06-03 04:54:42,766 - INFO - Vektorizálás...
+2025-06-03 04:54:42,840 - INFO - Vocabulary méret: 7440
+2025-06-03 04:54:42,840 - INFO - Feature matrix alakja: (4457, 7440)
+2025-06-03 04:54:42,841 - INFO - Model tanítása...
+2025-06-03 04:54:42,842 - INFO - Model kiértékelése...
+2025-06-03 04:54:42,854 - INFO - Metrikák mentve: artifacts/training_metrics.json
+2025-06-03 04:54:42,864 - INFO - Model sikeresen mentve: artifacts\spam_model.pkl
+2025-06-03 04:54:42,864 - INFO - Training befejezve. Összes idõ: 0.11 másodperc
+2025-06-03 04:59:38,460 - INFO - Training script indítása
+2025-06-03 04:59:38,461 - INFO - Adat betöltése: data\spam.csv
+2025-06-03 04:59:38,469 - INFO - Adat betöltve: 5572 sor
+2025-06-03 04:59:38,469 - INFO - Adat validáció indítása...
+2025-06-03 04:59:38,470 - INFO - Validáció sikeres. Adatméret: 5572, Spam arány: 0.134
+2025-06-03 04:59:38,474 - INFO - Train méret: 4457, Test méret: 1115
+2025-06-03 04:59:38,475 - INFO - Label eloszlás:
+label
+ham     4825
+spam     747
+2025-06-03 04:59:38,475 - INFO - Vektorizálás...
+2025-06-03 04:59:38,564 - INFO - Vocabulary méret: 7440
+2025-06-03 04:59:38,565 - INFO - Feature matrix alakja: (4457, 7440)
+2025-06-03 04:59:38,565 - INFO - Model tanítása...
+2025-06-03 04:59:38,566 - INFO - Model kiértékelése...
+2025-06-03 04:59:38,577 - INFO - Metrikák mentve: artifacts/training_metrics.json
+2025-06-03 04:59:38,587 - INFO - Model sikeresen mentve: artifacts\spam_model.pkl
+2025-06-03 04:59:38,587 - INFO - Training befejezve. Összes idõ: 0.13 másodperc

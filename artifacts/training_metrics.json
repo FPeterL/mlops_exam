@@ -1,0 +1,23 @@
+{
+  "model_version": "v1.0_20250603_045938",
+  "accuracy": 0.9838565022421525,
+  "auc_roc": 0.9895855044673253,
+  "precision_spam": 0.958041958041958,
+  "recall_spam": 0.9194630872483222,
+  "f1_spam": 0.9383561643835616,
+  "confusion_matrix": [
+    [
+      960,
+      6
+    ],
+    [
+      12,
+      137
+    ]
+  ],
+  "train_size": 4457,
+  "test_size": 1115,
+  "vocabulary_size": 7440,
+  "training_time_seconds": 0.116537,
+  "timestamp": "2025-06-03T04:59:38.576844"
+}
