@@ -365,3 +365,136 @@
 2025-06-03 02:52:26,826 - WARNING -  * Debugger is active!
 2025-06-03 02:52:26,827 - INFO -  * Debugger PIN: 161-274-577
 2025-06-03 02:52:33,997 - INFO - 172.18.0.1 - - [03/Jun/2025 02:52:33] "GET / HTTP/1.1" 200 -
+2025-06-03 06:09:20,633 - ERROR - Hiba a model betÃ¶ltÃ©se sorÃ¡n: No module named 'numpy._core'
+2025-06-03 06:09:20,635 - ERROR - KRITIKUS HIBA: No module named 'numpy._core'
+2025-06-03 06:09:20,641 - INFO - Flask alkalmazÃ¡s indÃ­tÃ¡sa - Port: 5000, Debug: True
+2025-06-03 06:09:20,678 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+2025-06-03 06:09:20,679 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 06:09:20,680 - INFO -  * Restarting with stat
+2025-06-03 06:09:22,198 - ERROR - Hiba a model betÃ¶ltÃ©se sorÃ¡n: No module named 'numpy._core'
+2025-06-03 06:09:22,198 - ERROR - KRITIKUS HIBA: No module named 'numpy._core'
+2025-06-03 06:09:22,202 - INFO - Flask alkalmazÃ¡s indÃ­tÃ¡sa - Port: 5000, Debug: True
+2025-06-03 06:09:22,208 - WARNING -  * Debugger is active!
+2025-06-03 06:09:22,209 - INFO -  * Debugger PIN: 132-686-885
+2025-06-03 06:09:22,758 - INFO - 172.18.0.1 - - [03/Jun/2025 06:09:22] "GET / HTTP/1.1" 200 -
+2025-06-03 06:09:23,207 - INFO - 172.18.0.1 - - [03/Jun/2025 06:09:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-03 06:09:48,155 - INFO - 172.18.0.1 - - [03/Jun/2025 06:09:48] "POST / HTTP/1.1" 200 -
+2025-06-03 08:11:03,664 - INFO - Model sikeresen betöltve: C:\Users\feherp\Documents\GitHub\mlops_exam\app\../artifacts/spam_model.pkl
+2025-06-03 08:11:03,665 - INFO - Model verzió: v1.0_20250603_081027
+2025-06-03 08:11:03,665 - INFO - Training accuracy: 0.9838565022421525
+2025-06-03 08:11:03,665 - INFO - Tanítás dátuma: 2025-06-03T08:10:27.470571
+2025-06-03 08:11:03,665 - INFO - Flask alkalmazás sikeresen inicializálva
+2025-06-03 08:11:03,673 - INFO - Flask alkalmazás indítása - Port: 5000, Debug: True
+2025-06-03 08:11:03,768 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.92:5000
+2025-06-03 08:11:03,769 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 08:11:03,774 - INFO -  * Restarting with stat
+2025-06-03 08:11:06,340 - INFO - Model sikeresen betöltve: C:\Users\feherp\Documents\GitHub\mlops_exam\app\../artifacts/spam_model.pkl
+2025-06-03 08:11:06,341 - INFO - Model verzió: v1.0_20250603_081027
+2025-06-03 08:11:06,341 - INFO - Training accuracy: 0.9838565022421525
+2025-06-03 08:11:06,341 - INFO - Tanítás dátuma: 2025-06-03T08:10:27.470571
+2025-06-03 08:11:06,341 - INFO - Flask alkalmazás sikeresen inicializálva
+2025-06-03 08:11:06,345 - INFO - Flask alkalmazás indítása - Port: 5000, Debug: True
+2025-06-03 08:11:06,353 - WARNING -  * Debugger is active!
+2025-06-03 08:11:06,357 - INFO -  * Debugger PIN: 362-745-163
+2025-06-03 08:11:06,573 - INFO - 127.0.0.1 - - [03/Jun/2025 08:11:06] "GET / HTTP/1.1" 200 -
+2025-06-03 08:11:15,063 - INFO - Web prediction: spam (confidence: 0.571) - Processing time: 0.021s
+2025-06-03 08:11:15,066 - INFO - 127.0.0.1 - - [03/Jun/2025 08:11:15] "POST / HTTP/1.1" 200 -
+2025-06-03 08:11:35,151 - INFO - Web prediction: spam (confidence: 0.818) - Processing time: 0.005s
+2025-06-03 08:11:35,153 - INFO - 127.0.0.1 - - [03/Jun/2025 08:11:35] "POST / HTTP/1.1" 200 -
+2025-06-03 08:12:00,125 - INFO - Web prediction: spam (confidence: 0.999) - Processing time: 0.004s
+2025-06-03 08:12:00,127 - INFO - 127.0.0.1 - - [03/Jun/2025 08:12:00] "POST / HTTP/1.1" 200 -
+2025-06-03 08:12:21,539 - INFO - Web prediction: ham (confidence: 0.968) - Processing time: 0.002s
+2025-06-03 08:12:21,541 - INFO - 127.0.0.1 - - [03/Jun/2025 08:12:21] "POST / HTTP/1.1" 200 -
+2025-06-03 08:12:30,589 - INFO - Web prediction: ham (confidence: 0.869) - Processing time: 0.004s
+2025-06-03 08:12:30,592 - INFO - 127.0.0.1 - - [03/Jun/2025 08:12:30] "POST / HTTP/1.1" 200 -
+2025-06-03 08:14:13,620 - INFO - 127.0.0.1 - - [03/Jun/2025 08:14:13] "POST / HTTP/1.1" 200 -
+2025-06-03 08:14:22,117 - INFO - Web prediction: ham (confidence: 0.922) - Processing time: 0.004s
+2025-06-03 08:14:22,119 - INFO - 127.0.0.1 - - [03/Jun/2025 08:14:22] "POST / HTTP/1.1" 200 -
+2025-06-03 08:14:32,540 - INFO - Web prediction: spam (confidence: 1.000) - Processing time: 0.004s
+2025-06-03 08:14:32,541 - INFO - 127.0.0.1 - - [03/Jun/2025 08:14:32] "POST / HTTP/1.1" 200 -
+2025-06-03 08:14:52,762 - INFO - Web prediction: spam (confidence: 1.000) - Processing time: 0.003s
+2025-06-03 08:14:52,763 - INFO - 127.0.0.1 - - [03/Jun/2025 08:14:52] "POST / HTTP/1.1" 200 -
+2025-06-03 08:15:02,941 - INFO - Web prediction: ham (confidence: 0.910) - Processing time: 0.003s
+2025-06-03 08:15:02,943 - INFO - 127.0.0.1 - - [03/Jun/2025 08:15:02] "POST / HTTP/1.1" 200 -
+2025-06-03 08:15:10,729 - INFO - Web prediction: spam (confidence: 1.000) - Processing time: 0.002s
+2025-06-03 08:15:10,731 - INFO - 127.0.0.1 - - [03/Jun/2025 08:15:10] "POST / HTTP/1.1" 200 -
+2025-06-03 08:16:04,020 - INFO - Web prediction: spam (confidence: 0.973) - Processing time: 0.004s
+2025-06-03 08:16:04,023 - INFO - 127.0.0.1 - - [03/Jun/2025 08:16:04] "POST / HTTP/1.1" 200 -
+2025-06-03 08:16:16,075 - INFO - Web prediction: ham (confidence: 1.000) - Processing time: 0.004s
+2025-06-03 08:16:16,077 - INFO - 127.0.0.1 - - [03/Jun/2025 08:16:16] "POST / HTTP/1.1" 200 -
+2025-06-03 08:16:58,169 - INFO - Web prediction: spam (confidence: 0.635) - Processing time: 0.004s
+2025-06-03 08:16:58,171 - INFO - 127.0.0.1 - - [03/Jun/2025 08:16:58] "POST / HTTP/1.1" 200 -
+2025-06-03 08:31:51,996 - INFO - 127.0.0.1 - - [03/Jun/2025 08:31:51] "POST / HTTP/1.1" 200 -
+2025-06-04 07:14:38,552 - INFO - Model sikeresen betöltve: C:\Users\feherp\Documents\GitHub\mlops_exam\app\../artifacts/spam_model.pkl
+2025-06-04 07:14:38,552 - INFO - Model verzió: v1.0_20250603_081027
+2025-06-04 07:14:38,552 - INFO - Training accuracy: 0.9838565022421525
+2025-06-04 07:14:38,552 - INFO - Tanítás dátuma: 2025-06-03T08:10:27.470571
+2025-06-04 07:14:38,552 - INFO - Flask alkalmazás sikeresen inicializálva
+2025-06-04 07:14:38,559 - INFO - Flask alkalmazás indítása - Port: 5000, Debug: True
+2025-06-04 07:14:38,636 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.92:5000
+2025-06-04 07:14:38,636 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 07:14:38,643 - INFO -  * Restarting with stat
+2025-06-04 07:14:40,086 - INFO - Model sikeresen betöltve: C:\Users\feherp\Documents\GitHub\mlops_exam\app\../artifacts/spam_model.pkl
+2025-06-04 07:14:40,086 - INFO - Model verzió: v1.0_20250603_081027
+2025-06-04 07:14:40,086 - INFO - Training accuracy: 0.9838565022421525
+2025-06-04 07:14:40,086 - INFO - Tanítás dátuma: 2025-06-03T08:10:27.470571
+2025-06-04 07:14:40,086 - INFO - Flask alkalmazás sikeresen inicializálva
+2025-06-04 07:14:40,090 - INFO - Flask alkalmazás indítása - Port: 5000, Debug: True
+2025-06-04 07:14:40,096 - WARNING -  * Debugger is active!
+2025-06-04 07:14:40,099 - INFO -  * Debugger PIN: 362-745-163
+2025-06-04 07:14:40,341 - INFO - 127.0.0.1 - - [04/Jun/2025 07:14:40] "GET / HTTP/1.1" 200 -
+2025-06-04 07:14:40,644 - INFO - 127.0.0.1 - - [04/Jun/2025 07:14:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-04 07:15:16,322 - INFO - 127.0.0.1 - - [04/Jun/2025 07:15:16] "POST / HTTP/1.1" 200 -
+2025-06-04 07:15:25,600 - INFO - Web prediction: ham (confidence: 0.916) - Processing time: 0.017s
+2025-06-04 07:15:25,602 - INFO - 127.0.0.1 - - [04/Jun/2025 07:15:25] "POST / HTTP/1.1" 200 -
+2025-06-04 07:15:35,549 - INFO - Web prediction: spam (confidence: 1.000) - Processing time: 0.004s
+2025-06-04 07:15:35,551 - INFO - 127.0.0.1 - - [04/Jun/2025 07:15:35] "POST / HTTP/1.1" 200 -
+2025-06-04 14:27:30,419 - INFO -  * Detected change in 'C:\\Users\\feherp\\Documents\\GitHub\\mlops_exam\\tests\\test_integration.py', reloading
+2025-06-04 14:27:30,916 - INFO -  * Restarting with stat
+2025-06-04 14:27:33,414 - INFO - Model sikeresen betöltve: C:\Users\feherp\Documents\GitHub\mlops_exam\app\../artifacts/spam_model.pkl
+2025-06-04 14:27:33,414 - INFO - Model verzió: v1.0_20250604_134433
+2025-06-04 14:27:33,414 - INFO - Training accuracy: 0.9838565022421525
+2025-06-04 14:27:33,414 - INFO - Tanítás dátuma: 2025-06-04T13:44:33.967260
+2025-06-04 14:27:33,414 - INFO - Flask alkalmazás sikeresen inicializálva
+2025-06-04 14:27:33,418 - INFO - Flask alkalmazás indítása - Port: 5000, Debug: True
+2025-06-04 14:27:33,457 - WARNING -  * Debugger is active!
+2025-06-04 14:27:33,460 - INFO -  * Debugger PIN: 362-745-163
+2025-06-04 14:29:06,166 - INFO -  * Detected change in 'C:\\Users\\feherp\\Documents\\GitHub\\mlops_exam\\tests\\test_integration.py', reloading
+2025-06-04 14:29:06,511 - INFO -  * Restarting with stat
+2025-06-04 14:29:08,548 - INFO - Model sikeresen betöltve: C:\Users\feherp\Documents\GitHub\mlops_exam\app\../artifacts/spam_model.pkl
+2025-06-04 14:29:08,548 - INFO - Model verzió: v1.0_20250604_134433
+2025-06-04 14:29:08,548 - INFO - Training accuracy: 0.9838565022421525
+2025-06-04 14:29:08,548 - INFO - Tanítás dátuma: 2025-06-04T13:44:33.967260
+2025-06-04 14:29:08,548 - INFO - Flask alkalmazás sikeresen inicializálva
+2025-06-04 14:29:08,555 - INFO - Flask alkalmazás indítása - Port: 5000, Debug: True
+2025-06-04 14:29:08,561 - WARNING -  * Debugger is active!
+2025-06-04 14:29:08,564 - INFO -  * Debugger PIN: 362-745-163
+2025-06-04 14:31:57,230 - INFO -  * Detected change in 'C:\\Users\\feherp\\Documents\\GitHub\\mlops_exam\\tests\\test_integration.py', reloading
+2025-06-04 14:31:57,669 - INFO -  * Restarting with stat
+2025-06-04 14:32:00,220 - INFO - Model sikeresen betöltve: C:\Users\feherp\Documents\GitHub\mlops_exam\app\../artifacts/spam_model.pkl
+2025-06-04 14:32:00,220 - INFO - Model verzió: v1.0_20250604_142908
+2025-06-04 14:32:00,220 - INFO - Training accuracy: 0.9838565022421525
+2025-06-04 14:32:00,220 - INFO - Tanítás dátuma: 2025-06-04T14:29:08.778983
+2025-06-04 14:32:00,220 - INFO - Flask alkalmazás sikeresen inicializálva
+2025-06-04 14:32:00,224 - INFO - Flask alkalmazás indítása - Port: 5000, Debug: True
+2025-06-04 14:32:00,230 - WARNING -  * Debugger is active!
+2025-06-04 14:32:00,232 - INFO -  * Debugger PIN: 362-745-163
+2025-06-04 14:34:04,090 - INFO -  * Detected change in 'C:\\Users\\feherp\\Documents\\GitHub\\mlops_exam\\tests\\test_integration.py', reloading
+2025-06-04 14:34:04,324 - INFO -  * Restarting with stat
+2025-06-04 14:34:06,236 - INFO - Model sikeresen betöltve: C:\Users\feherp\Documents\GitHub\mlops_exam\app\../artifacts/spam_model.pkl
+2025-06-04 14:34:06,236 - INFO - Model verzió: v1.0_20250604_143304
+2025-06-04 14:34:06,236 - INFO - Training accuracy: 0.9838565022421525
+2025-06-04 14:34:06,236 - INFO - Tanítás dátuma: 2025-06-04T14:33:04.583912
+2025-06-04 14:34:06,236 - INFO - Flask alkalmazás sikeresen inicializálva
+2025-06-04 14:34:06,240 - INFO - Flask alkalmazás indítása - Port: 5000, Debug: True
+2025-06-04 14:34:06,247 - WARNING -  * Debugger is active!
+2025-06-04 14:34:06,249 - INFO -  * Debugger PIN: 362-745-163

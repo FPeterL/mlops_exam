@@ -1,5 +1,5 @@
 {
-  "model_version": "v1.0_20250603_045938",
+  "model_version": "v1.0_20250604_143304",
   "accuracy": 0.9838565022421525,
   "auc_roc": 0.9895855044673253,
   "precision_spam": 0.958041958041958,
@@ -18,6 +18,6 @@
   "train_size": 4457,
   "test_size": 1115,
   "vocabulary_size": 7440,
-  "training_time_seconds": 0.116537,
-  "timestamp": "2025-06-03T04:59:38.576844"
+  "training_time_seconds": 0.090338,
+  "timestamp": "2025-06-04T14:33:04.582911"
 }

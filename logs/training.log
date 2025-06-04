@@ -88,3 +88,39 @@ spam     747
 2025-06-03 04:59:38,577 - INFO - Metrikák mentve: artifacts/training_metrics.json
 2025-06-03 04:59:38,587 - INFO - Model sikeresen mentve: artifacts\spam_model.pkl
 2025-06-03 04:59:38,587 - INFO - Training befejezve. Összes idõ: 0.13 másodperc
+2025-06-03 08:10:27,297 - INFO - Training script indítása
+2025-06-03 08:10:27,298 - INFO - Adat betöltése: data\spam.csv
+2025-06-03 08:10:27,324 - INFO - Adat betöltve: 5572 sor
+2025-06-03 08:10:27,324 - INFO - Adat validáció indítása...
+2025-06-03 08:10:27,328 - INFO - Validáció sikeres. Adatméret: 5572, Spam arány: 0.134
+2025-06-03 08:10:27,342 - INFO - Train méret: 4457, Test méret: 1115
+2025-06-03 08:10:27,346 - INFO - Label eloszlás:
+label
+ham     4825
+spam     747
+2025-06-03 08:10:27,346 - INFO - Vektorizálás...
+2025-06-03 08:10:27,454 - INFO - Vocabulary méret: 7440
+2025-06-03 08:10:27,454 - INFO - Feature matrix alakja: (4457, 7440)
+2025-06-03 08:10:27,455 - INFO - Model tanítása...
+2025-06-03 08:10:27,458 - INFO - Model kiértékelése...
+2025-06-03 08:10:27,470 - INFO - Metrikák mentve: artifacts/training_metrics.json
+2025-06-03 08:10:27,481 - INFO - Model sikeresen mentve: artifacts\spam_model.pkl
+2025-06-03 08:10:27,481 - INFO - Training befejezve. Összes idõ: 0.18 másodperc
+2025-06-04 13:44:33,790 - INFO - Training script indítása
+2025-06-04 13:44:33,792 - INFO - Adat betöltése: data\spam.csv
+2025-06-04 13:44:33,835 - INFO - Adat betöltve: 5572 sor
+2025-06-04 13:44:33,836 - INFO - Adat validáció indítása...
+2025-06-04 13:44:33,842 - INFO - Validáció sikeres. Adatméret: 5572, Spam arány: 0.134
+2025-06-04 13:44:33,857 - INFO - Train méret: 4457, Test méret: 1115
+2025-06-04 13:44:33,861 - INFO - Label eloszlás:
+label
+ham     4825
+spam     747
+2025-06-04 13:44:33,861 - INFO - Vektorizálás...
+2025-06-04 13:44:33,948 - INFO - Vocabulary méret: 7440
+2025-06-04 13:44:33,949 - INFO - Feature matrix alakja: (4457, 7440)
+2025-06-04 13:44:33,949 - INFO - Model tanítása...
+2025-06-04 13:44:33,952 - INFO - Model kiértékelése...
+2025-06-04 13:44:33,967 - INFO - Metrikák mentve: artifacts/training_metrics.json
+2025-06-04 13:44:33,979 - INFO - Model sikeresen mentve: artifacts\spam_model.pkl
+2025-06-04 13:44:33,980 - INFO - Training befejezve. Összes idõ: 0.19 másodperc
