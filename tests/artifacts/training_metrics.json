@@ -1,7 +1,7 @@
 {
   "experiment_info": {
-    "timestamp": "2025-06-05T10:41:33.553485",
-    "training_time_seconds": 101.930593,
+    "timestamp": "2025-06-05T12:20:40.549421",
+    "training_time_seconds": 135.362109,
     "dataset_size": 5572,
     "train_size": 4457,
     "test_size": 1115
@@ -83,6 +83,6 @@
       ]
     ]
   },
-  "model_version": "v2.0_20250605_104133",
-  "timestamp": "2025-06-05T10:41:33.554180"
+  "model_version": "v2.0_20250605_122040",
+  "timestamp": "2025-06-05T12:20:40.550424"
 }

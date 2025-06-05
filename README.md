@@ -10,14 +10,14 @@ A cél, hogy bemutassam a gépi tanulási modell fejlesztésének, kiértékelé
 
 1. **`train.py`**  
    - Betölti a `data/spam.csv` fájlt, előfeldolgozza a szövegeket,  
-   - Vektorizálja őket `CountVectorizer`-rel,  
-   - Naive Bayes modellel megtanítja a spam/ham osztályozót,  
+   - Vektorizálja őket a `CountVectorizer` és `TfidfVectorizer`, és a jobb pontosságút használja,
+   - Összehasonlítja a `MultinomialNB` `LogisticRegression` `RandomForestClassifier` `SVC` modelleket, és a legjobb AUC-ROC pontosság alapján kiválasztja a modellt,
    - Kiértékeli a modellt (acc, ROC-AUC, konfúziós mátrix, classification report),  
    - Mentésre kerül a tanított modell (`artifacts/spam_model.pkl`) és a metrikák (`artifacts/training_metrics.json`).  
    - A futás közben naplózza a lépéseket a `logs/training.log` fájlba.
 
 2. **`app/app.py`**  
-   - Flask-alapú API és egyszerű HTML front-end:  
+   - Flask-RESTful alapú API és egyszerű HTML front-end:  
      - `/` – főoldal, ahol beírható egy üzenet, és a rendszer kiszámolja, spam-e vagy sem;  
      - `/predict` – JSON alapú API-végpont, amely POST-kérésben vár egy `{ "message": "<szöveg>" }` formátumú kérést, és visszaadja a predikciót;  
      - `/stats` – lekérhető a szolgáltatásra vonatkozó statisztika (kérésszám, spam/ham arány, átlagos válaszidő, hibaarány, stb.);  

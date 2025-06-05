@@ -1,9 +1,8 @@
 import os
-import importlib
-import pytest
-
-import app.app as flask_app_module
 import train
+import pytest
+import importlib
+import app.app as flask_app_module
 
 @pytest.mark.order(10)
 def test_train_and_reload_model(tmp_path, monkeypatch):
@@ -14,11 +13,18 @@ def test_train_and_reload_model(tmp_path, monkeypatch):
 
     # Training futtatása
     metrics = train.main()
-    assert 'accuracy' in metrics, "A train.main() nem adott vissza metrikát"
-    assert os.path.exists(os.path.join(project_root, "artifacts", "spam_model.pkl")), \
-        "A tréning nem hozta létre az artifacts/spam_model.pkl fájlt"
 
-    # Friss modell betöltése
+    # Metrics ellenőrizése
+    assert 'best_model' in metrics, "A train.main() nem adott vissza 'best_model' kulcsot"
+    best_model_info = metrics['best_model']
+    assert 'accuracy' in best_model_info, "A 'best_model' nem tartalmazza az 'accuracy' kulcsot"
+    assert best_model_info['accuracy'] > 0.8, "A legjobb modell pontossága nem éri el a 0.8-at"
+
+    #  artifacts/spam_model.pkl fájl létrejöttének ellenőrzése
+    model_path = os.path.join(project_root, "artifacts", "spam_model.pkl")
+    assert os.path.exists(model_path), "A tréning nem hozta létre az artifacts/spam_model.pkl fájlt"
+
+    # Friss modell betöltése a Flask alkalmazásból
     importlib.reload(flask_app_module)
     app = flask_app_module.app
     app.config["TESTING"] = True
